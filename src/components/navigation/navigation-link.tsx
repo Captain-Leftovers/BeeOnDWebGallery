@@ -2,7 +2,7 @@
 
 import { cn } from '@/lib/utils'
 import Link, { LinkProps } from 'next/link'
-import { usePathname, useSelectedLayoutSegment } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 type NavigationLinkProps = LinkProps & {
 	targetSegment: string | null
